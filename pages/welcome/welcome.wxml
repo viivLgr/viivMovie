@@ -1,0 +1,8 @@
+<!--welcome/welcome.wxml-->
+<view class="container">
+    <image class="user-img" src="{{img}}"></image>
+    <text class="user-name">hi,{{username}}</text>
+    <view class="motto-container" bindtap="onTap">
+        <text class="motto">viivMovie</text>
+    </view>
+</view>

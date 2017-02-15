@@ -1,0 +1,153 @@
+/* pages/movies/movie-detail/movie-detail.wxss */
+@import "../stars/stars-template.wxss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 750rpx;
+  position: relative;
+  background-color: #eee;
+}
+
+.header .header-bg {
+  width: 750rpx;
+  height: 320rpx;
+  -webkit-filter: blur(20px);
+}
+
+.header .header-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  width: 670rpx;
+  padding: 40rpx 40rpx;
+}
+
+.header .header-left text {
+  line-height: 20rpx;
+  font-size: 24rpx;
+  color: #fff;
+}
+
+.header .header-left .title {
+  font-size: 36rpx;
+  color: #fff;
+  line-height: 46rpx;
+  font-weight: bold;
+}
+
+.header .header-left .year {
+  margin-top: 40rpx;
+  font-size: 28rpx;
+  color: #fff;
+  line-height: 28rpx;
+}
+
+.dot {
+  margin: 0 10rpx;
+}
+
+.header .header-left .like-txt {
+  margin-top: 100rpx;
+  font-size: 26rpx;
+  color: #eee;
+  line-height: 26rpx;
+  flex-direction: row;
+  display: flex;
+}
+
+.like-left {
+  margin-right: 30rpx;
+}
+
+.header .header-left .like-txt .red {
+  color: red;
+  margin-right: 10rpx;
+}
+
+.header .header-right {
+  position: absolute;
+  right: 40rpx;
+  top: 90rpx;
+}
+
+.header .header-right .header-img {
+  width: 256rpx;
+  height: 356rpx;
+  background-color: #fff;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 750rpx;
+}
+
+.content .title {
+  margin: 30rpx 0 30rpx 30rpx;
+  font-size: 28rpx;
+  color: #333;
+  font-weight: bold;
+}
+
+.content .contentTit {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 40rpx;
+}
+
+.content .contentOne .item {
+  display: flex;
+  flex-direction: row;
+  margin: 6rpx 0;
+}
+
+.content .contentOne .item .tit {
+  margin-right: 40rpx;
+  color: #aaa;
+}
+
+.content .contentTwo .tit, .content .contentThree .tit {
+  margin: 50rpx 0 20rpx 0;
+  color: #aaa;
+}
+
+.content .contentTwo .con {
+  width: 680rpx;
+  line-height: 46rpx;
+  letter-spacing: 1px;
+}
+
+.scroll-h {
+  width: 100%;
+  white-space: nowrap;
+}
+
+.contentThree-item {
+  width: 170rpx;
+  margin-right: 40rpx;
+  display: inline-flex;
+  flex-direction: column;
+  margin-bottom: 50rpx;
+  text-align: center;
+  /* 换行 */
+  white-space: normal;
+}
+
+.contentThree-item .img {
+  width: 170rpx;
+  height: 210rpx;
+}
+
+.contentThree-item .name {
+  margin-top: 10rpx;
+  width: 170rpx;
+}
